@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.MoMath"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.MoMath.FirsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.MoMath.menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.MoMath.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.MoMath.deter2x2"
+            android:label="@string/determinantes2x2" >
+             <intent-filter>
+                <action android:name="com.MoMath.DETER2x2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.MoMath.deter3x3"
+            android:label="@string/determinantes3x3" >
+             <intent-filter>
+                <action android:name="com.MoMath.DETER3x3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+             <activity
+            android:name="com.MoMath.deter4x4"
+            android:label="@string/determinantes4x4" >
+             <intent-filter>
+                <action android:name="com.MoMath.DETER4x4" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.MoMath.deter5x5"
+            android:label="@string/determinantes5x5" >
+             <intent-filter>
+                <action android:name="com.MoMath.DETER5x5" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.MoMath.sistemas2incog"
+            android:label="@string/SELcon2incognitas" >
+             <intent-filter>
+                <action android:name="com.MoMath.SISTEMAS2INCOG" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.MoMath.sistemas3incog"
+            android:label="@string/SELcon3incognitas" >
+             <intent-filter>
+                <action android:name="com.MoMath.SISTEMAS3INCOG" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.MoMath.Sistemas4incog"
+            android:label="@string/SELcon4incognitas" >
+             <intent-filter>
+                <action android:name="com.MoMath.SISTEMAS4INCOG" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.MoMath.ecucuadra"
+            android:label="@string/cuadra" >
+             <intent-filter>
+                <action android:name="com.MoMath.ECUCUADRA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

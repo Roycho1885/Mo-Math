@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mo-Math</string>
+    <string name="action_settings">Settings</string>
+    <string name="determinantes2x2">Determinantes de Orden 2x2</string>
+    <string name="determinantes3x3">Determinantes de Orden 3x3</string>
+    <string name ="calcular">Calcular</string>
+    <string name="borrar">Borrar</string>
+    <string name="determinantes4x4">Determinantes de Orden 4x4</string>
+    <string name="determinantes5x5">Determinantes de Orden 5x5</string>
+    <string name="SELcon2incognitas">S.E.L. con 2 Incógnitas</string>
+    <string name="SELcon3incognitas">S.E.L. con 3 Incógnitas</string>
+    <string name="SELcon4incognitas">S.E.L. con 4 Incógnitas</string>
+    <string name="SELcon5incognitas">S.E.L. con 5 Incógnitas</string>
+    <string name="converdecbin">Conversor Decimal-Binario</string>
+    <string name = "pcoe">a +</string>
+    <string name = "scoe">b =</string>
+    <string name = "presu">a =</string>
+    <string name = "clasi">Clasificación</string>
+    <string name = "raices">Raíces</string>
+    <string name = "scoef">b +</string>
+    <string name = "tercoe">c =</string>
+    <string name = "tercoef">c +</string>
+    <string name = "cuartocoe">d =</string>
+    <string name = "cuadra">Ecuación de segundo grado con una incógnita</string>
+    <string name = "Ingreso_datos">Ingrese los coeficientes de la ecuación</string>
+    <string name = "praiz">x1 =</string>
+    <string name = "sraiz">x2 =</string>
+    <string name = "vertices">Vértice</string>
+    <string name = "forma1">Forma de la ecuación cuadrática: \n a.x^2 + b.x + c</string>
+    <string name = "forma2">Forma general: a.x^2 + b.x + c</string>
+    <string name = "forma3">Forma factorizada: a(x-x1)(x-x2) </string>
+    <string name = "forma4">Forma canónica: a(x-Xv)^2 + Yv</string>
+    <string name = "exit">Salir de Mo-Math</string>
+</resources>

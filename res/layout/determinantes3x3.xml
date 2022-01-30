@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000">
+    
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:minWidth="25dp"
+         android:minHeight="25dp" >
+         
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+            
+            <EditText
+                android:id="@+id/a"
+                android:layout_width="108dp"
+                android:layout_weight="1"
+                android:layout_column="0"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textCapCharacters"
+                android:textColor="#ff2183b1"
+        		android:textSize="18sp"
+       			 android:textStyle="bold" >
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/b"
+                android:layout_width="108dp"
+                android:layout_weight="1"
+                android:layout_column="1"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textCapCharacters"
+                android:textColor="#ff2183b1"
+      			android:textSize="18sp"
+       			android:textStyle="bold" />
+            
+             <EditText
+                android:id="@+id/c"
+                android:layout_width="108dp"
+                android:layout_weight="1"
+                android:layout_column="2"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textCapCharacters"
+                android:textColor="#ff2183b1"
+      			android:textSize="18sp"
+       			android:textStyle="bold" />
+           </TableRow>
+             
+             <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+            
+            <EditText
+                android:id="@+id/d"
+                android:layout_width="108dp"
+                android:layout_weight="1"
+                android:layout_column="0"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textCapCharacters"
+                android:textColor="#ff2183b1"
+        		android:textSize="18sp"
+       			 android:textStyle="bold" >
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/e"
+                android:layout_width="108dp"
+                android:layout_weight="1"
+                android:layout_column="1"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textCapCharacters"
+                android:textColor="#ff2183b1"
+      			android:textSize="18sp"
+       			android:textStyle="bold" />
+            
+             <EditText
+                android:id="@+id/f"
+                android:layout_width="108dp"
+                android:layout_weight="1"
+                android:layout_column="2"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textCapCharacters"
+                android:textColor="#ff2183b1"
+      			android:textSize="18sp"
+       			android:textStyle="bold" />
+             </TableRow>
+             <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+            
+            <EditText
+                android:id="@+id/g"
+                android:layout_width="108dp"
+                android:layout_weight="1"
+                android:layout_column="0"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textCapCharacters"
+                android:textColor="#ff2183b1"
+        		android:textSize="18sp"
+       			 android:textStyle="bold" >
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/h"
+                android:layout_width="108dp"
+                android:layout_weight="1"
+                android:layout_column="1"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textCapCharacters"
+                android:textColor="#ff2183b1"
+      			android:textSize="18sp"
+       			android:textStyle="bold" />
+            
+             <EditText
+                android:id="@+id/j"
+                android:layout_width="108dp"
+                android:layout_weight="1"
+                android:layout_column="2"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textCapCharacters"
+                android:textColor="#ff2183b1"
+      			android:textSize="18sp"
+       			android:textStyle="bold" />
+             </TableRow>
+            </TableLayout>
+            
+     <TextView
+        android:id="@+id/salida"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#ff2183b1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="2.0dp"
+        android:background="#000000" />
+     
+     <Button
+        android:id="@+id/calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:textColor="#ff1a1847"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/borrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/borrar"
+        android:textColor="#ff1a1847"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

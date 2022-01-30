@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000">
+    
+     <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3">
+        <TableLayout
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tableLayout3">
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_weight="1"
+                    android:layout_width="70dp"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:inputType="textCapCharacters"
+                    android:textColor="#ff2183b1" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_weight="1"
+                    android:layout_column="1"
+                    android:text="@string/pcoe"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_weight="1"
+                    android:layout_width="70dp"
+                    android:layout_column="2"
+                    android:gravity="center"
+                    android:inputType="textCapCharacters"
+                    android:textColor="#ff2183b1" />
+
+                <TextView
+                    android:text="@string/scoe"
+                    android:layout_weight="1"
+                    android:layout_column="3"
+                    android:id="@+id/textView21"
+                    android:textSize="18sp" 
+                    android:textColor="#FFFFFF"/>
+
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_weight="1"
+                    android:layout_width="70dp"
+                    android:layout_column="4"
+                    android:gravity="center"
+                    android:inputType="textCapCharacters"
+                    android:textColor="#ff2183b1" />
+
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <TableLayout
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout4">
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_weight="1"
+                android:layout_width="70dp"
+                android:layout_column="0"
+                android:gravity="center"
+                android:inputType="textCapCharacters"
+                android:textColor="#ff2183b1" />
+
+            <TextView
+                android:text="@string/pcoe"
+                android:layout_weight="1"
+                android:layout_column="1"
+                android:id="@+id/textView25"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_weight="1"
+                android:layout_width="70dp"
+                android:layout_column="2"
+                android:gravity="center"
+                android:inputType="textCapCharacters"
+                android:textColor="#ff2183b1" />
+
+            <TextView
+                android:text="@string/scoe"
+                android:layout_weight="1"
+                android:layout_column="3"
+                android:id="@+id/textView26"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_weight="1"
+                android:layout_width="70dp"
+                android:layout_column="4"
+                android:gravity="center"
+                android:inputType="textCapCharacters"
+                android:textColor="#ff2183b1" />
+
+        </TableRow>
+    </TableLayout>
+    <TextView
+        android:text="@string/raices"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:gravity="center"
+        android:textStyle="bold" 
+        android:textColor="#FFFFFF"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:gravity="center">
+        <TextView
+            android:text="@string/presu"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView3"
+            android:textSize="18sp" 
+            android:textColor="#FFFFFF"/>
+        <TableLayout
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/tableLayout1">
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:minWidth="25dp"
+                android:minHeight="25dp">
+                <TextView
+                    android:layout_column="0"
+                    android:id="@+id/textView4"
+                    android:layout_width="50dp"
+                    android:layout_height="26dp"
+                    android:gravity="center"
+                    android:textColor="#ff2183b1"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:text="@string/scoe"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/textView5"
+            android:textSize="18sp" 
+            android:textColor="#FFFFFF"/>
+        <TableLayout
+            android:minWidth="25dp"
+            android:minHeight="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/tableLayout2">
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:minWidth="25dp"
+                android:minHeight="25dp">
+                <TextView
+                    android:layout_column="0"
+                    android:id="@+id/textView6"
+                    android:layout_width="50dp"
+                    android:layout_height="26dp"
+                    android:gravity="center"
+                    android:textColor="#ff2183b1"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <TextView
+        android:text="@string/clasi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:textStyle="bold" 
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50.7dp"
+        android:id="@+id/textView1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#ff2183b1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/calcular"
+        android:text="@string/calcular"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff1a1847"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/borrar"
+        android:text="@string/borrar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff1a1847"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
